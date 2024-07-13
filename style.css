@@ -1,0 +1,81 @@
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #3091ff;
+    color: white;
+    padding: 1em 0;
+}
+
+/* Lista de navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 25px;
+}
+
+/* Links dentro dos itens da lista de navegação */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2.5px solid white;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover (passar o mouse) dos botões */
+nav ul li a:hover {
+    background-color: white;
+    color: #333;
+}
+
+/* Seção principal da página */
+main {
+    flex: 1;
+    padding: 2em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #3091ff;
+    color: white;
+    text-align: center;
+    padding: 0em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Rótulos dos campos do formulário */
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Area de texto do formulário */
+form input, form textarea {
+    width: 50%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Botão de envio do formulário */
+form input[type="submit"] {
+    width: auto;
+    background-color: #3091ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
